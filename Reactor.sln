@@ -1,17 +1,24 @@
-﻿Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reactor", "Reactor\Reactor.csproj", "{91906039-9753-472B-ACC3-12C0561FFAD8}"
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31129.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Reactor", "Reactor\Reactor.csproj", "{91906039-9753-472B-ACC3-12C0561FFAD8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reactor.Debugger", "Reactor.Debugger\Reactor.Debugger.csproj", "{68589B4D-9EF5-40DD-8D6D-10977ED07259}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Reactor.Debugger", "Reactor.Debugger\Reactor.Debugger.csproj", "{68589B4D-9EF5-40DD-8D6D-10977ED07259}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Build", "build\Build.csproj", "{58AC4924-AC3D-45EA-80D7-E9F860FD1DD2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Build", "build\Build.csproj", "{58AC4924-AC3D-45EA-80D7-E9F860FD1DD2}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "build", "build", "{E2F4DAFA-E98C-4A7D-BA47-AAB0271A769D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reactor.Example", "Reactor.Example\Reactor.Example.csproj", "{26A83466-26FE-4383-A35C-B8629902F909}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Reactor.Example", "Reactor.Example\Reactor.Example.csproj", "{26A83466-26FE-4383-A35C-B8629902F909}"
 EndProject
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Reactor.Shared", "Reactor.Shared\Reactor.Shared.shproj", "{8C1EEFE9-EF8A-47C4-810E-6D9BA1E7218B}"
 EndProject
 Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		Reactor.Shared\Reactor.Shared.projitems*{91906039-9753-472b-acc3-12c0561ffad8}*SharedItemsImports = 5
+	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
@@ -31,8 +38,18 @@ Global
 		{26A83466-26FE-4383-A35C-B8629902F909}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{26A83466-26FE-4383-A35C-B8629902F909}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{26A83466-26FE-4383-A35C-B8629902F909}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C1EEFE9-EF8A-47C4-810E-6D9BA1E7218B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C1EEFE9-EF8A-47C4-810E-6D9BA1E7218B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C1EEFE9-EF8A-47C4-810E-6D9BA1E7218B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C1EEFE9-EF8A-47C4-810E-6D9BA1E7218B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{58AC4924-AC3D-45EA-80D7-E9F860FD1DD2} = {E2F4DAFA-E98C-4A7D-BA47-AAB0271A769D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B9329548-CAAF-4AFA-91FC-5498BEDDC158}
 	EndGlobalSection
 EndGlobal
