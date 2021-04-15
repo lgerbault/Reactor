@@ -2,7 +2,7 @@
     <PropertyGroup>
         <TargetFramework>netstandard2.1</TargetFramework>
         <LangVersion>latest</LangVersion>
-
+        <GameVersion>2021.4.14s</GameVersion>
         <VersionPrefix>0.4.0</VersionPrefix>
         <VersionSuffix>dev</VersionSuffix>
         <Description>Core mod and API for Among Us</Description>
